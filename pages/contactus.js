@@ -1,10 +1,10 @@
-import React from "react";
-import styles from "./contactus.module.css"
-import Button from "../components/button/Button";
-import contactimage from "../public/contact.png"
-import Image from "next/image";
-import Navbar from "../components/navbar/Navbar"
-import Footer from "../components/footer/Footer";
+import React from 'react';
+import styles from './contactus.module.css';
+import Button from '../components/button/Button';
+import contactimage from '../public/contact.png';
+import Image from 'next/image';
+import Navbar from '../components/navbar/Navbar';
+import Footer from '../components/footer/Footer';
 
 
 
