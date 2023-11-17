@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.copy}>
-     <h5>© 2023 "co. name", All right reserved.</h5></div>
+     <h5>© 2023 co. name, All right reserved.</h5></div>
      <div className={styles.socials}>      
       <h3 className={styles.sociallinks} > Social Links</h3>
      <div > 
