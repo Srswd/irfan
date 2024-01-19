@@ -4,6 +4,7 @@ import Swipermain from '../components/swiper/page'
 import Hcontent from '../components/hcontent/hcontent'
 import "./globals.css"
 import Button from '../components/button/Button'
+import { Link } from 'react-router-dom';
 
 function onclick(){
   <Link href="/forbuyer"/>
@@ -18,7 +19,8 @@ export default function Home() {
       <div className='item'>
       <h1 className='title'>Welcome to Goa Explora </h1>
       <h2 className='titlee'>Your Gateway to Unforgettable Journeys</h2>
-      <p className='disc'>Explore the vibrant tapestry of Goa with Goa Explora - your premier partner in Cab Booking and Sightseeing adventures. Immerse yourself in the enchanting beauty of Goa's golden beaches, historic landmarks, and lively culture. Whether you're seeking a tranquil escape or an adrenaline-packed escapade, we have the perfect journey waiting for you.</p>
+      <p className='disc'>Explore the vibrant tapestry of Goa with Goa Explora - your premier partner in Cab Booking and Sightseeing adventures. Immerse yourself in the enchanting beauty of Goa&apos;s golden beaches, historic landmarks, and lively culture. Whether you&apos;re seeking a tranquil escape or an adrenaline-packed escapade, we have the perfect journey waiting for you.</p>
+
       <div className='buttons'>
       <Button url="forbuyer" text="Book Now"/>      
       </div>
