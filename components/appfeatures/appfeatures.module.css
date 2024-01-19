@@ -1,0 +1,55 @@
+.main{
+    background-color: rgb(229, 236, 240);
+    margin-top: 0px;
+}
+
+.howitworks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(229, 236, 240);
+    padding-bottom: 20px;
+  
+  }
+.howitworkh {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(229, 236, 240);
+    color: #04756c;
+    font-size: 35px;
+   
+  }
+  
+  .step {
+    text-align: center;
+    width: 20%;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height:60vh;
+    padding: 8px;
+    box-shadow: 5px 5px 5px rgb(176, 173, 173);
+  }
+  .image{
+    width: 80%;
+    height: 60%;
+  }
+  
+  .stepicon {
+   
+    font-size: 36px;
+    color: #007BFF; /* You can choose your own color */
+    margin-bottom: 10px;
+  }
+  
+  .step h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .step p {
+    font-size: 16px;
+  }
+  

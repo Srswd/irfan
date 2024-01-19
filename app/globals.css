@@ -18,3 +18,90 @@ body {
   color: black;
   background-color: white;
 }
+.main{
+  background-color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+}
+.container{
+  display: flex;
+  height: 80vh;
+  gap: 0px;
+  background-color: #0c787e;
+  overflow: hidden;
+  margin-top: 0px;
+
+}
+.buttons{
+  margin-top: 20px;;
+}
+.item{
+  display: flex;
+  flex: 1;
+   flex-direction: column;
+  margin-left: 30px;
+  position: relative;
+  margin-top: 0px;
+ 
+}
+.h3{
+ width: 47vw;
+ color: #000f0e;
+ margin-top: 10px;
+ 
+}
+
+.title{
+  margin-top: 100px;
+  font-size: 52px;
+  background: linear-gradient(to bottom,#d2d81a,#0bf9e5);
+  -webkit-background-clip :text;
+  -webkit-text-fill-color:transparent;
+}
+.titlee{
+  font-size: 32px;
+  background: linear-gradient(to bottom,#bec241,#dde4e4);
+  -webkit-background-clip :text;
+  -webkit-text-fill-color:transparent;
+}
+.disc{
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(84, 243, 224);
+}
+.hero{
+  width:600px;
+  height: 550px;
+  z-index: 4;
+  top:50px;
+  position: relative;
+      
+}
+
+.apptitle{
+  font-size: 30px;
+  color: #04756c;
+}
+.applogo{
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+}
+.appitem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(229, 236, 240);
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  
+}
+
+.applogodiv{
+  display: flex;
+ 
+}

@@ -11,15 +11,10 @@ const links = [
         
     {
       id: 2,
-      title: "About Us",
-      url: "/aboutus",
-    },
-    {
-      id: 3,
       title: "Contact Us",
       url: "/contactus",
     },
-   
+     
   ];
 
 const Navbar = () => {
